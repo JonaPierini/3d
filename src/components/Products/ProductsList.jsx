@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./productList.css";
 import { ProductItem } from "./ProductItem";
 import { Link, useLocation } from "react-router-dom";
 import { Card } from "../Card/Card";
 import authImage from "../../assets/product-auth.png"
 import axios from "axios";
+import WebgiViewer from "../WebGIViewer/WebgiViewer";
+import DisplaySection from "../WebGIViewer/DisplaySection";
 
 export const ProductsList = () => {
   const [products, setProducts] = useState([]);
@@ -27,6 +29,13 @@ export const ProductsList = () => {
     fetchProducts();
   }, []);
 
+  const webgiViewerRef = useRef();
+  const contentRef = useRef();
+
+  const handlePreview = () => {
+    webgiViewerRef.current.triggerPreview();
+  }
+
   return (
     <>
       <>
@@ -38,6 +47,13 @@ export const ProductsList = () => {
         </Link>
       </div>
       </>
+
+        <DisplaySection triggerPreview={handlePreview} />
+        <WebgiViewer contentRef={contentRef} ref={webgiViewerRef} />
+
+      
+
+
       <div className="products-page">
         <h1>Products</h1>
         <div className="product-list d-flex flex-wrap justify-content-around">

@@ -9,9 +9,18 @@ import { Auth } from "./components/Auth/Auth";
 import { Merchandaising } from "./components/Merchandaising/Merchandaising";
 import { AboutUs } from "./components/AboutUs/AboutUs";
 import { ComputersCanvas } from "./components/Computer/Computer";
+import WebgiViewer from "./components/WebGIViewer/WebgiViewer";
+import { useRef } from 'react'
 
 
 function App() {
+  const webgiViewerRef = useRef();
+  const contentRef = useRef();
+
+  const handlePreview = () => {
+    webgiViewerRef.current.triggerPreview();
+  }
+
   return (
     <>
       <NavBar />
