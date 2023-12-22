@@ -1,0 +1,92 @@
+[{
+    "id": 1,
+    "type": "orals",
+    "name": "Methagen 10",
+    "description": "<b>Descripción del producto 1 Lorem ipsum dolor</b> sit amet, consectetur adipisicing elit. Quas fugiat saepe laborum officia esse quis laboriosam eius aut quasi enim maxime fugit impedit, error minima veritatis ex facilis reiciendis maiores.",
+    "image": "/assets/orals/oral1.jpeg"
+  },
+  {
+    "id": 2,
+    "type": "inyectable",
+    "name": "Testo Blend 275",
+    "description": "Descripción del producto 2",
+    "image": "/assets/injectable/inj1.jpeg"
+  },
+  {
+      "id": 3,
+      "type": "orals",
+      "name": "Stanogen 10",
+      "description": "Descripción del producto 3",
+      "image": "/assets/orals/oral2.jpeg"
+  },
+  {
+      "id": 4,
+      "type": "inyectable",
+      "name": "Trenagen 200",
+      "description": "Descripción del producto 4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas fugiat saepe laborum officia esse quis laboriosam eius aut quasi enim maxime fugit impedi",
+      "image": "/assets/injectable/inj2.jpeg"
+  },
+  {
+    "id": 5,
+    "type": "orals",
+    "name": "Oxytogen 10",
+    "description": "Descripción del producto 3",
+    "image": "/assets/orals/oral3.jpeg"
+  },
+  {
+    "id": 6,
+    "type": "inyectable",
+    "name": "Testostenan 300",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas fugiat saepe laborum officia esse quis laboriosam eius aut quasi enim maxime fugit impedit, error minima veritatis ex facilis reiciendis maiores.",
+    "image": "/assets/injectable/inj3.jpeg"
+  },
+  {
+    "id": 7,
+    "type": "orals",
+    "name": "Oxagen 10",
+    "description": "Descripción del producto 3",
+    "image": "/assets/orals/oral4.jpeg"
+  },
+  {
+    "id": 8,
+    "type": "inyectable",
+    "name": "Boldegen 250",
+    "description": "Descripción del producto 6",
+    "image": "/assets/injectable/inj4.jpeg"
+  },
+  {
+    "id": 9,
+    "type": "inyectable",
+    "name": "Trenbogen 100",
+    "description": "Descripción del producto 6",
+    "image": "/assets/injectable/inj5.jpeg"
+  },
+  {
+    "id": 10,
+    "type": "inyectable",
+    "name": "Drostagen 100",
+    "description": "Descripción del producto 6",
+    "image": "/assets/injectable/inj6.jpeg"
+  },
+  {
+    "id": 11,
+    "type": "inyectable",
+    "name": "Decagen 300",
+    "description": "Descripción del producto 6",
+    "image": "/assets/injectable/inj7.jpeg"
+  },
+  {
+    "id": 12,
+    "type": "inyectable",
+    "name": "Propiogen 100",
+    "description": "Descripción del producto 6",
+    "image": "/assets/injectable/inj8.jpeg"
+  },
+  {
+    "id": 13,
+    "type": "inyectable",
+    "name": "Primogen 100",
+    "description": "Descripción del producto 6",
+    "image": "/assets/injectable/inj9.jpeg"
+  }
+]

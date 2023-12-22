@@ -1,0 +1,48 @@
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.brand-section, .contact-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.brand-description ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.brand-description li {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
+.color-rojo {
+    color: #DC3439;
+ }
+ 
+ .color-azul {
+    color: #284AB0;
+ }
+ 
+ .contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ 
+
+.contact-section img {
+   
+    width: 30px;
+    height: 30px;
+}

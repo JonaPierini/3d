@@ -1,0 +1,17 @@
+.merchandaising{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.merchandaising h2{
+    font-size: 60px;
+}
+
+.merchandaising img{
+    width: 12rem;
+    height: 8rem;
+}
