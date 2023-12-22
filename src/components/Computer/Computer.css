@@ -1,0 +1,9 @@
+.canvas{
+    display: flex;
+    height: 900px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

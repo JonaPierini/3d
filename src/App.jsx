@@ -8,9 +8,8 @@ import { ProductsDetail } from "./components/ProductsDetail/ProductsDetail";
 import { Auth } from "./components/Auth/Auth";
 import { Merchandaising } from "./components/Merchandaising/Merchandaising";
 import { AboutUs } from "./components/AboutUs/AboutUs";
-import { ThreeDComponent } from "./components/three3d/ThreeDComponent";
+import { ComputersCanvas } from "./components/Computer/Computer";
 
-import {model} from "./assets/scene.gltf";
 
 function App() {
   return (
@@ -23,7 +22,7 @@ function App() {
         <Route path="/detail" element={<ProductsDetail />} />
         <Route path="/merchandaising" element={<Merchandaising />} />
         <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/3d" element={<ThreeDComponent model={model} />} />
+        <Route path="/3d" element={<ComputersCanvas />} />
         <Route path="*" element={<NoMatch />} />
       </Routes>
       <Footer />
